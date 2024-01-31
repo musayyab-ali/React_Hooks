@@ -11,6 +11,8 @@ import UseEffect from "./components/UseEffects/UseEffect";
 import UseEffectCleanUp from "./components/UseEffects/UseEffectCleanUp";
 import UseEffectGithubAPI from "./components/UseEffects/UseEffectGithubAPI";
 import UseRef from "./components/UseRef";
+import UseReducer from "./components/UseReducerState/UseReducer";
+import ContextA from "./components/UseContext/ContextA";
 
 function App() {
   return (
@@ -24,7 +26,9 @@ function App() {
       {/* <UseEffect /> */}
       {/* <UseEffectCleanUp /> */}
       {/* <UseEffectGithubAPI /> */}
-      <UseRef />
+      {/* <UseRef /> */}
+      {/* <UseReducer /> */}
+      <ContextA/>
     </div>
   );
 }
